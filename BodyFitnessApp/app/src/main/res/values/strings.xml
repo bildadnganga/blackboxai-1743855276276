@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">Body Fitness</string>
+
+    <!-- Login screen -->
+    <string name="login_title">Welcome Back!</string>
+    <string name="login_subtitle">Sign in to continue your fitness journey</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="error_invalid_email">Invalid email address</string>
+    <string name="error_invalid_password">Password must be at least 6 characters</string>
+    <string name="error_empty_field">This field cannot be empty</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_goals">Goals</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Home Fragment -->
+    <string name="home_welcome">Welcome, %1$s!</string>
+    <string name="home_motivation">Let\'s achieve your fitness goals today!</string>
+    <string name="track_workout">Track Workout</string>
+    <string name="view_progress">View Progress</string>
+    <string name="daily_quote">Quote of the day</string>
+
+    <!-- Goals Fragment -->
+    <string name="goals_title">My Fitness Goals</string>
+    <string name="add_goal">Add New Goal</string>
+    <string name="goal_name">Goal Name</string>
+    <string name="goal_target">Target</string>
+    <string name="goal_deadline">Deadline</string>
+    <string name="save_goal">Save Goal</string>
+    <string name="error_goal_name">Please enter a goal name</string>
+    <string name="error_goal_target">Please enter a target</string>
+
+    <!-- Profile Fragment -->
+    <string name="profile_title">My Profile</string>
+    <string name="profile_name">Name</string>
+    <string name="profile_email">Email</string>
+    <string name="profile_height">Height</string>
+    <string name="profile_weight">Weight</string>
+    <string name="btn_edit_profile">Edit Profile</string>
+    <string name="btn_logout">Logout</string>
+
+    <!-- Common -->
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="success_save">Successfully saved!</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+</resources>
