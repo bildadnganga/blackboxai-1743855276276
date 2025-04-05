@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Style for circular profile image -->
+    <style name="CircleImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <!-- Custom button styles -->
+    <style name="Widget.BodyFitness.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">12dp</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <!-- Custom card styles -->
+    <style name="Widget.BodyFitness.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+
+    <!-- Custom text input styles -->
+    <style name="Widget.BodyFitness.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+    </style>
+
+    <!-- Custom chip styles -->
+    <style name="Widget.BodyFitness.Chip" parent="Widget.MaterialComponents.Chip.Action">
+        <item name="chipCornerRadius">16dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="chipBackgroundColor">@color/primary</item>
+    </style>
+
+    <!-- Custom bottom navigation styles -->
+    <style name="Widget.BodyFitness.BottomNavigation" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="elevation">8dp</item>
+        <item name="itemIconTint">@color/primary</item>
+        <item name="itemTextColor">@color/primary</item>
+        <item name="background">@color/white</item>
+    </style>
+</resources>
